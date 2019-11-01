@@ -17,3 +17,31 @@
 // </div>
 //
 // Create a card for each of the articles and add the card to the DOM.
+
+axios
+
+
+function cardcomponent() {
+    const divcard = document.createElement('div');
+    const divhead = document.createElement('div');
+    const divauthor = document.createElement('div');
+    const divimg = document.createElement('div')
+    const imgtag = document.createElement('img');
+    const spanauthor = document.createElement('span')
+
+    divcard.append(divhead);
+    divcard.append(divauthor);
+    divcauthor.append(divimg);
+    divauthor.append(imatag);
+
+    divcard.classList.add('card');
+    divhead.classList.add('headline');
+    divauthor.classList.add('author');
+    divimg.classList.add('img-container');
+
+
+
+
+    return divcard;
+
+}
