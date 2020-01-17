@@ -23,3 +23,4 @@ function tapComponent(topic) {
   divTab.textContent = topic;
   return divTab;
 }
+g;
